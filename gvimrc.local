@@ -1,3 +1,10 @@
 " Color scheme
 colorscheme solarized8_dark_high
 set guifont=Monaco:h13
+
+" this enables "visual" wrapping
+set wrap
+
+" this turns off physical line wrapping (ie: automatic insertion of newlines)
+set textwidth=0 wrapmargin=0
+
